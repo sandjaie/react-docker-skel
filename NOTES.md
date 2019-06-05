@@ -19,11 +19,11 @@ Let us build and run the docker image:<br>
 `$ docker run -p 3000:3000 flow/frontend-dev`
 
 #### To share volume
-The below command mounts the pwd of the host to /app inside the container.
+The below command mounts the pwd of the host to /app inside the container.<br>
 `$ docker run -p 3000:3000 -v $(pwd):/app flow/frontend-dev`
 
 Tell docker do not map a folder against node_modules. (since we mount $pwd as the app folder, it needs to be overwritten).
-<br>Now we can edit the files in src/ and app gets reloaded automatically (done by react)
+<br>Now we can edit the files in src/ and app gets reloaded automatically (done by react)<br>
 `$ docker run -p 3000:3000 -v /app/node_modules -v $(pwd):/app flow/frontend-dev`
 
 #### Using docker-compose to solve the above lengthy commands
