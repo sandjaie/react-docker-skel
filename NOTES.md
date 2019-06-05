@@ -1,4 +1,4 @@
-#### installation notes
+### Installation notes
 Let us use Dockerfile.dev for developement and Dockerfile for production
 
 ### Dev Mode
