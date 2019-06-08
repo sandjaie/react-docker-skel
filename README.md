@@ -1,4 +1,5 @@
-This project is bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is bootstrapped with [Create React App](https://github.com/facebook/create-react-app).<br>
+[![Build Status](https://travis-ci.org/sandjaie/react-docker-skel.svg?branch=master)](https://travis-ci.org/sandjaie/react-docker-skel)
 
 ### Available Scripts
 
