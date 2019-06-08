@@ -50,3 +50,9 @@ To Build the image:<br>
 `$ docker build -t flow/frontend-prod .`
 <br>To Run the container:<br>
 `$ docker run -p 8080:80  flow/frontend-prod`
+
+### CI
+* Tell Travis we need a copy for docker running
+* Build our image using dockerfile.dev
+* Tell Travus how to run our test suite
+* Tell Travis how to deploy our code to AWS
