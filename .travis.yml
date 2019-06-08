@@ -6,4 +6,4 @@ before_install:
   - docker build -t sandjaie/react-docker-skel -f Dockerfile.dev .
 
 script:
-  - docker run sandjaie/react-docker-skel nom run test -- --coverage
+  - docker run sandjaie/react-docker-skel npm run test -- --coverage
