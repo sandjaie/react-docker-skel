@@ -3,7 +3,7 @@ services:
   - docker
 
 before_install:
-  - docker build -t sandjaie/react-docker-skel -f Dockerfile.dev .
+  - docker build -t sandjaie/react-docker-skel -f Dockerfile .
 
 script:
   - docker run -e CI=true sandjaie/react-docker-skel npm run test -- --coverage
