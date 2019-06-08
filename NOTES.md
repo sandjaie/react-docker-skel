@@ -51,8 +51,10 @@ To Build the image:<br>
 <br>To Run the container:<br>
 `$ docker run -p 8080:80  flow/frontend-prod`
 
-### CI
-* Tell Travis we need a copy for docker running
-* Build our image using dockerfile.dev
-* Tell Travus how to run our test suite
-* Tell Travis how to deploy our code to AWS
+### CICD
+* Intergrate github with travis-ci
+* Add .travis.yml
+    * Add commands to run  `npm test` before deploy
+* Deploy the application in AWS Beanstalk
+
+Create a AWS Beanstalk application and add the details in .tarvis.yml
