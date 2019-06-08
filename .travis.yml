@@ -1,0 +1,9 @@
+sudo: required
+services:
+  - docker
+
+before_install:
+  - docker build -t sandjaie/react-docker-skel -f Dockerfile.dev .
+
+script:
+  - docker run sandjaie/react-docker-skel nom run test -- --coverage
