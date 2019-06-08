@@ -7,4 +7,4 @@ This project demonstrates single container deployment in AWS Beanstalk using doc
 
 #### Use `docker-compose up` for local development 
 
-Read NOTES.md
+Read [NOTES.md](https://github.com/sandjaie/react-docker-skel/blob/master/NOTES.md)
