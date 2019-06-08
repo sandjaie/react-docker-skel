@@ -5,7 +5,7 @@ WORKDIR '/app'
 COPY package.json .
 RUN npm install
 
-#If we are mounting the current directory in /app we need copy the contents.
-#COPY . .
+#If we are mounting the current directory in /app we may not need to copy the contents.
+COPY . .
 
 CMD ["npm", "run", "start"]
